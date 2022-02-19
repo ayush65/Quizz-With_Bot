@@ -1,0 +1,72 @@
+@import url("../../style.css");
+
+body{
+    background-color: var(--secondary-coolor);
+}
+.homepage-component{
+    display: flex;
+    flex-flow: row wrap;
+    width: 1650px;
+    height: 500px;
+    background-color: var(--white);
+    position: absolute;
+    top: 15rem;
+    left: 2rem;
+    gap: 5rem;
+}
+.card-component-horizontal{
+    position: absolute;
+    height: 400px;
+    top: 1rem;
+}
+.card-container-horizontal{
+    margin-top: 1rem;
+    width: 350px;
+    margin-left: 5rem;
+}
+.quiz-play-button{
+    position: absolute;
+    background-color: var(--secondary-coolor);
+    color: var(--white);
+    width: 250px;
+    text-align: center;
+    font-size: 2rem;
+    top: 27rem;
+    left: 3rem;
+    border-radius:25%;
+    text-decoration: none;
+}
+.quiz-play-button:hover{
+    background-color: var(--theme-color);
+    color: var(--white);
+}
+@media (max-width: 468px) {
+    .homepage-component{
+        position: absolute;
+        flex-flow: column wrap;
+        width: 290px;
+        height: 1450px;
+    }  
+    .homepage-component{
+        left:0.9rem;
+    }
+    .card-component-horizontal{
+        width: 250px;
+        height: 250px;
+    }
+    .card-container-horizontal{
+        width: 250px;
+    }
+    .quiz-play-button{
+        position: absolute;
+        top: 18rem;
+        left: 5rem;
+        font-size:1.2rem;
+        width: 100px;
+    }
+    .card-container-horizontal{
+        margin-top: 0.5rem;
+        height: 330px;
+        margin-left: 0rem;
+    }
+}
