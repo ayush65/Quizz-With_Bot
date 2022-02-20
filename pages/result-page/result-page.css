@@ -1,0 +1,13 @@
+@import url("../question-page/question-page.css");
+
+.btn-red{
+    background-color: var(--primary-color);
+}
+.btn-green{
+    background-color: var(--start-button);
+}
+.question-page-submit{
+    background-color: var(--end-button);
+    width: 3rem;
+    text-align: center;
+}
