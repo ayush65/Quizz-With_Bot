@@ -5,8 +5,8 @@
     top: 13rem;
     left: 19rem;
     background-color: var(--white);
-    height: 31.25rem;
-    width: 68.75rem;
+    height: 50%;
+    width: 65%;
 }
 .rules-list-item{
     font-size:1.5rem;
@@ -36,8 +36,8 @@
 }
 @media (max-width: 468px) {
     .rules-page-components{
-        height: 68.75rem;
-        width: 18.125rem;
+        height: 130%;
+        width: 100%;
         left: 1rem;
     }
     .quiz-start-button{
