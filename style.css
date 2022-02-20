@@ -9,13 +9,6 @@ body{
 .tab-container{
     background-color: var(--theme-color);
 }
-.quiz-homepage-heading{
-    color: var(--white);
-    font-size:  3rem;
-    position: absolute;
-    top: 9rem;
-    left: 40rem;
-}
 .homepage-link{
     font-size:  1.5rem;
     line-height: 2;
@@ -23,15 +16,15 @@ body{
     background-color: var(--white);
     color: var(--theme-color);
     position: absolute;
-    top: 45rem;
-    left: 39rem;
+    top: 35rem;
+    left: 32rem;
     text-decoration: none;
     text-align: center;
 }
 .img-landing-page{
     position: absolute;
-    top: 15rem;
-    left: 30rem;
+    top: 7rem;
+    left: 25rem;
     width: 37.5rem;
     height: 25rem;
     border-radius: 35%;
