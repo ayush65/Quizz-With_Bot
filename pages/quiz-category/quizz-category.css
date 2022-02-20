@@ -1,0 +1,46 @@
+@import url("../homepage/homepage.css");
+
+.quiz-category-heading{
+    color: var(--white);
+    font-size: 2rem;
+    position: absolute;
+    top: 8rem;
+    left: 45rem;
+}
+.quiz-categories-href{
+    position: absolute;
+    top:15rem;
+    display: flex;
+    gap: 5rem;
+}
+.category-button{
+    padding: 6rem;
+    color: var(--white);
+    margin-left: 2.5rem;
+    text-decoration: none;
+    font-size: 2rem;
+}
+.btn-movie{
+    background-color: var(--start-button);
+}
+.btn-technical{
+    background-color: var(--end-button);
+}
+.btn-adventure{
+    background-color: var(--btn-adventure);
+}
+.btn-politics{
+    background-color: var(--politics-color);
+}
+@media (max-width: 468px) {
+    .quiz-categories-href{
+        position: absolute;
+        flex-direction: column;
+        left: 0.5rem;
+        top: 5rem;
+    }
+    .category-button{
+        padding: 3rem;
+        font-size: 1.5rem;
+    }
+}
