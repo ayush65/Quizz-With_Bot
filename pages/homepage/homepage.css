@@ -6,11 +6,11 @@ body{
 .homepage-component{
     display: flex;
     flex-flow: row wrap;
-    width: 100%;
-    height: 80%;
+    width: 98%;
+    height: 70%;
     background-color: var(--white);
     position: absolute;
-    top: 15rem;
+    top: 8rem;
     left: 1rem;
     gap: 5rem;
 }
@@ -39,6 +39,16 @@ body{
 .quiz-play-button:hover{
     background-color: var(--theme-color);
     color: var(--white);
+}
+.category-link{
+    position: absolute;
+    top: 5rem;
+    right: 3rem;
+    text-decoration: none;
+    background-color: var(--start-button);
+    padding: 0.5rem;
+    color: var(--white);
+    font-size: 1.5rem;
 }
 @media (max-width: 468px) {
     .homepage-component{
