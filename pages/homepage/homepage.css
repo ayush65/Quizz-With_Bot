@@ -6,12 +6,12 @@ body{
 .homepage-component{
     display: flex;
     flex-flow: row wrap;
-    width: 90%;
+    width: 95%;
     height: 60%;
     background-color: var(--white);
     position: absolute;
     top: 15rem;
-    left: 2rem;
+    left: 1rem;
     gap: 5rem;
 }
 .card-component-horizontal{
