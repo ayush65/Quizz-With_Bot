@@ -10,7 +10,7 @@ body{
     height: 70%;
     background-color: var(--white);
     position: absolute;
-    top: 15rem;
+    top: 8rem;
     left: 1rem;
     gap: 5rem;
 }
