@@ -14,9 +14,9 @@
     gap: 5rem;
 }
 .category-button{
-    padding: 6rem;
+    padding: 4rem;
     color: var(--white);
-    margin-left: 2.5rem;
+    margin-left: 1.5rem;
     text-decoration: none;
     font-size: 2rem;
 }
